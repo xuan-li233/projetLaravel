@@ -1,0 +1,29 @@
+.searchBar{
+
+    form{
+        height: 42px;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%,-50%);
+        input{
+            border: 2px solid $ny-yellow;
+            border-radius: 5px;
+            background: transparent;
+            top: 0;
+            right: 0;
+            width:350px;
+
+
+
+        }
+        button:before{
+            content: "Search";
+            font-size: 13px;
+            color: $black;
+        }
+
+    }
+
+
+}

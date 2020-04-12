@@ -1,0 +1,36 @@
+h1{
+    font-family: "OldEnglishText", serif;
+    text-align: center;
+    font-size: 80px;
+    margin-top: 70px;
+
+}
+h2{
+    font-family: "Futura", serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+p, button, input{
+    font-family: "Futura", serif;
+}
+a,a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: black;
+}
+.carousel{
+    margin-top: 3%;
+    .carousel-cell{
+        padding-right: 10px;
+        img{
+            width:200px;
+            height: 320px;
+            border: 2px solid $ny-yellow;
+            border-radius: 5px;
+        }
+        p {
+            width: 200px;
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
